@@ -1,0 +1,21 @@
+{
+    "name": "pageboost/facebook-laravel",
+    "description": "",
+    "authors": [
+        {
+            "name": "Dimitar Rekinov",
+            "email": "me@drekinov.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "facebook/php-sdk": "@stable"
+    },
+    "autoload": {
+        "psr-0": {
+            "PageBoost\\FacebookLaravel": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
