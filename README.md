@@ -1,4 +1,4 @@
-Facebook PHP SDK for Laravel 4
+Facebook PHP SDK for Laravel 4.1
 ============================
 
 Facebook PHP SDK wrapper package with Facebook Connect support through Laravel Session.
@@ -24,13 +24,13 @@ Begin by installing this package through Composer.
 Open  `app/config/app.php` and add following Service Provider and Facade
 
 ```php
-
+// Provider
 'providers' => array(
     'PageBoost\FacebookLaravel\FacebookServiceProvider',
 )
-//
+// Facade
 'aliases' => array(
-    'FB'            => 'PageBoost\FacebookLaravel\Facades\LaravelFacebook',
+    'FB' => 'PageBoost\FacebookLaravel\Facades\LaravelFacebook',
 )
 ```
 

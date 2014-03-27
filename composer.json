@@ -1,6 +1,8 @@
 {
     "name": "pageboost/facebook-laravel",
-    "description": "",
+    "description": "Facebook PHP SDK for Laravel 4.1",
+    "keywords": ["laravel facebook", "facebook sdk", "facebook", "laravel", "sdk", "api"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Dimitar Rekinov",
